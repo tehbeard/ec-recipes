@@ -6,7 +6,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:acacia_log"
+            "item": "minecraft:smooth_sandstone"
           }
         ]
       }
@@ -19,7 +19,7 @@
   ],
   "rewards": {
     "recipes": [
-      "escapecraft:stonecutter/acacialog_to_fences"
+      "escapecraft:stonecutter/sandstone/smooth_sandstone_to_sand"
     ]
   }
 }
