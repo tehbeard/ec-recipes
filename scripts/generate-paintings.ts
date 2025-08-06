@@ -6,36 +6,52 @@ import { recipeAdvancement, stonecutter, writeJSON } from "./utils.ts"; // @ts-i
 
 
 const paintings = [
+    "minecraft:kebab",
+    "minecraft:aztec",
     "minecraft:alban",
-"minecraft:aztec",
-"minecraft:aztec2",
-"minecraft:bomb",
-"minecraft:burning_skull",
-"minecraft:bust",
-"minecraft:courbet",
-"minecraft:creebet",
-"minecraft:donkey_kong",
-"minecraft:earth",
-"minecraft:fighters",
-"minecraft:fire",
-"minecraft:graham",
-"minecraft:kebab",
-"minecraft:match",
-"minecraft:pigscene",
-"minecraft:plant",
-"minecraft:pointer",
-"minecraft:pool",
-"minecraft:sea",
-"minecraft:skeleton",
-"minecraft:skull_and_roses",
-"minecraft:stage",
-"minecraft:sunset",
-"minecraft:void",
-"minecraft:wanderer",
-"minecraft:wasteland",
-"minecraft:water",
-"minecraft:wind",
-"minecraft:wither"
+    "minecraft:aztec2",
+    "minecraft:bomb",
+    "minecraft:plant",
+    "minecraft:wasteland",
+    "minecraft:pool",
+    "minecraft:courbet",
+    "minecraft:sea",
+    "minecraft:sunset",
+    "minecraft:creebet",
+    "minecraft:wanderer",
+    "minecraft:graham",
+    "minecraft:match",
+    "minecraft:bust",
+    "minecraft:stage",
+    "minecraft:void",
+    "minecraft:skull_and_roses",
+    "minecraft:wither",
+    "minecraft:fighters",
+    "minecraft:pointer",
+    "minecraft:pigscene",
+    "minecraft:burning_skull",
+    "minecraft:skeleton",
+    "minecraft:donkey_kong",
+    "minecraft:baroque",
+    "minecraft:humble",
+    "minecraft:meditative",
+    "minecraft:prairie_ride",
+    "minecraft:unpacked",
+    "minecraft:backyard",
+    "minecraft:bouquet",
+    "minecraft:cavebird",
+    "minecraft:changing",
+    "minecraft:cotan",
+    "minecraft:endboss",
+    "minecraft:fern",
+    "minecraft:finding",
+    "minecraft:lowmist",
+    "minecraft:orb",
+    "minecraft:owlemons",
+    "minecraft:passage",
+    "minecraft:pond",
+    "minecraft:sunflowers",
+    "minecraft:tides"
 ];
 
 
@@ -59,7 +75,7 @@ paintings.forEach( (painting_id) => {
         }
       };
 
-    writeJSON(`./data/escapecraft/recipes/stonecutter/painting/${filename}.json`, data );
+    writeJSON(`./data/escapecraft/recipe/stonecutter/painting/${filename}.json`, data );
 
 })
 
