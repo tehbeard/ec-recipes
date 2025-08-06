@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bamboo_block"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:stonecutter/wood/bamboo_block_to_bamboo_button",
+      "escapecraft:stonecutter/wood/bamboo_block_to_bamboo_door",
+      "escapecraft:stonecutter/wood/bamboo_block_to_bamboo_fence",
+      "escapecraft:stonecutter/wood/bamboo_block_to_bamboo_fence_gate",
+      "escapecraft:stonecutter/wood/bamboo_block_to_bamboo_planks",
+      "escapecraft:stonecutter/wood/bamboo_block_to_bamboo_pressure_plate",
+      "escapecraft:stonecutter/wood/bamboo_block_to_bamboo_sign",
+      "escapecraft:stonecutter/wood/bamboo_block_to_bamboo_slab",
+      "escapecraft:stonecutter/wood/bamboo_block_to_bamboo_stairs",
+      "escapecraft:stonecutter/wood/bamboo_block_to_stripped_bamboo_block",
+      "escapecraft:stonecutter/wood/bamboo_block_to_bamboo_trapdoor"
+    ]
+  }
+}
