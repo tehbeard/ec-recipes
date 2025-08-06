@@ -9,7 +9,8 @@ const storage_types = [
     ['nether_wart_block', 'nether_wart', 9],
     ['glowstone', 'glowstone_dust', 4],
     ['bamboo_block', 'bamboo', 9],
-    ['leather','rabbit_hide', 4]
+    ['leather','rabbit_hide', 4],
+    ['amethyst_block','amethyst_shard', 4]
 ]
 
 
