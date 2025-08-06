@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cut_sandstone_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cut_sandstone_slab"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cut_sandstone_slab"
+    ],
+    [
+      "has_cut_sandstone_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:shapeless/cutsandstoneslabs_to_cutsandstone"
+    ]
+  }
+}

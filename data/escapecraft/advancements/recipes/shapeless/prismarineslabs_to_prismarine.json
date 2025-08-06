@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_prismarine_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:prismarine_slab"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_prismarine_slab"
+    ],
+    [
+      "has_prismarine_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:shapeless/prismarineslabs_to_prismarine"
+    ]
+  }
+}

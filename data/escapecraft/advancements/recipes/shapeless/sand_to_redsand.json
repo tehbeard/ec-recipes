@@ -1,0 +1,59 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:sand"
+          }
+        ]
+      }
+    },
+    "has_red_dye": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:red_dye"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_sand"
+    ],
+    [
+      "has_sand"
+    ],
+    [
+      "has_sand"
+    ],
+    [
+      "has_sand"
+    ],
+    [
+      "has_red_dye"
+    ],
+    [
+      "has_sand"
+    ],
+    [
+      "has_sand"
+    ],
+    [
+      "has_sand"
+    ],
+    [
+      "has_sand"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:shapeless/sand_to_redsand"
+    ]
+  }
+}

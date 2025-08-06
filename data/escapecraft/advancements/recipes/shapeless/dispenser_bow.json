@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dropper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dropper"
+          }
+        ]
+      }
+    },
+    "has_bow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:bow"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dropper"
+    ],
+    [
+      "has_bow"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:shapeless/dispenser_bow"
+    ]
+  }
+}

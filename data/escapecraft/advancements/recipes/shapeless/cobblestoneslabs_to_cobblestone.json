@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_cobblestone_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:cobblestone_slab"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cobblestone_slab"
+    ],
+    [
+      "has_cobblestone_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:shapeless/cobblestoneslabs_to_cobblestone"
+    ]
+  }
+}

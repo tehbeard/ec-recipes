@@ -1,0 +1,51 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_string": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:string"
+          }
+        ]
+      }
+    },
+    "has_stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stick"
+          }
+        ]
+      }
+    },
+    "has_dropper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dropper"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_string"
+    ],
+    [
+      "has_stick"
+    ],
+    [
+      "has_dropper"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:shaped/dispenser_dropper_bow_pattern"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_smooth_sandstone_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:smooth_sandstone_slab"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_smooth_sandstone_slab"
+    ],
+    [
+      "has_smooth_sandstone_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:shapeless/smoothsandstoneslabs_to_smoothsandstone"
+    ]
+  }
+}

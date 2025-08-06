@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_brick_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:brick_slab"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_brick_slab"
+    ],
+    [
+      "has_brick_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:shapeless/brickslabs_to_bricks"
+    ]
+  }
+}

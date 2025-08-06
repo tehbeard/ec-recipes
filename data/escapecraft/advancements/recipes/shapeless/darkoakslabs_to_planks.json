@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_dark_oak_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:dark_oak_slab"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_dark_oak_slab"
+    ],
+    [
+      "has_dark_oak_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:shapeless/darkoakslabs_to_planks"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_warped_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:warped_slab"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_warped_slab"
+    ],
+    [
+      "has_warped_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:shapeless/warpedslabs_to_planks"
+    ]
+  }
+}

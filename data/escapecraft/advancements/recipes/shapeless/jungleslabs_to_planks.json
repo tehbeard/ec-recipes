@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_jungle_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jungle_slab"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_jungle_slab"
+    ],
+    [
+      "has_jungle_slab"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:shapeless/jungleslabs_to_planks"
+    ]
+  }
+}
