@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:mangrove_log"
   },
-  "result": "minecraft:mangrove_gate",
+  "result": "minecraft:mangrove_fence_gate",
   "count": 1
 }

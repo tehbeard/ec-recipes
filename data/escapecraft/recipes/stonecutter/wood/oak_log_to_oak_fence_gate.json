@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:oak_log"
   },
-  "result": "minecraft:oak_gate",
+  "result": "minecraft:oak_fence_gate",
   "count": 1
 }

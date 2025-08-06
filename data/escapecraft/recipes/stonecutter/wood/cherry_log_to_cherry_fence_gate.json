@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:cherry_log"
   },
-  "result": "minecraft:cherry_gate",
+  "result": "minecraft:cherry_fence_gate",
   "count": 1
 }

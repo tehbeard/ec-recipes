@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:birch_log"
   },
-  "result": "minecraft:birch_gate",
+  "result": "minecraft:birch_fence_gate",
   "count": 1
 }

@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:warped_stem"
   },
-  "result": "minecraft:warped_gate",
+  "result": "minecraft:warped_fence_gate",
   "count": 1
 }

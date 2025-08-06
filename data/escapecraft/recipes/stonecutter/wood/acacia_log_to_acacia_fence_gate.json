@@ -3,6 +3,6 @@
   "ingredient": {
     "item": "minecraft:acacia_log"
   },
-  "result": "minecraft:acacia_gate",
+  "result": "minecraft:acacia_fence_gate",
   "count": 1
 }
