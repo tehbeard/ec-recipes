@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:cyan_stained_glass",
+  "result": {
+    "id": "minecraft:glass"
+  }
+}

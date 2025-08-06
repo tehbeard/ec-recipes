@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:magenta_glazed_terracotta",
+  "result": {
+    "id": "minecraft:magenta_terracotta"
+  }
+}

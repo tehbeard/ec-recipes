@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:black_terracotta",
+  "result": {
+    "id": "minecraft:terracotta"
+  }
+}

@@ -54,3 +54,9 @@ export const slabToBlockRecipe = (ingredient, result) => ({
     count: 1,
   },
 });
+
+export const recipeBlasting = (ingredient, result) => ({
+  type:"minecraft:blasting",
+  ingredient: ingredient,
+  result: { id: result }
+})

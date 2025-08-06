@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:cyan_terracotta",
+  "result": {
+    "id": "minecraft:terracotta"
+  }
+}
