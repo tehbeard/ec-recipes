@@ -1,38 +1,34 @@
-import { stonecutter } from "./utils.ts";
+import { stonecutter, writeJSON } from "./utils.ts";
 
 const wood_types = [
-    'oak',
-    'spruce',
-    'birch',
-    'jungle',
-    'acacia',
-    'darkoak',
+    ['oak','log'],
+    ['spruce','log'],
+    ['birch','log'],
+    ['jungle','log'],
+    ['acacia','log'],
+    ['darkoak','log'],
     
-    'mangrove',
+    ['mangrove','log'],
 
-    'cherry',
+    ['cherry','log'],
 
     // Nether
-    'crimsonstem',
-    'warpedstem'
+    ['crimson','stem'],
+    ['warped','stem']
 ]
 
-const suffix = str => s => `${s}_${str}`;
-
-const prefix = str => s => `${str}_${s}`;
-
 const products = [
-    stonecutter(suffix('button'), 4),
-    stonecutter(suffix('door'), 2),
-    stonecutter(suffix('fence'), 3),
-    stonecutter(suffix('gate'), 1),
-    stonecutter(suffix('plank'), 4),
-    stonecutter(suffix('plate'), 2),
-    stonecutter(suffix('sign'), 2),
-    stonecutter(suffix('slab'), 8),
-    stonecutter(suffix('stair'), 4),
-    stonecutter(s => `stripped_${s}_log`,1),
-    stonecutter(suffix('trapdoor'), 1),
+    [s => `${s[0]}_button`, 4],
+    [s => `${s[0]}_door`, 2],
+    [s => `${s[0]}_fence`, 3],
+    [s => `${s[0]}_gate`, 1],
+    [s => `${s[0]}_plank`, 4],
+    [s => `${s[0]}_plate`, 2],
+    [s => `${s[0]}_sign`, 2],
+    [s => `${s[0]}_slab`, 8],
+    [s => `${s[0]}_stair`, 4],
+    [s => `stripped_${s.join("_")}`,1],
+    [s => `${s[0]}_trapdoor`, 1],
         // 'red_sand',
         // 'sand',
 ]
@@ -44,7 +40,13 @@ const tag_based = [
 ];
 
 wood_types.forEach( wood => {
-    products.forEach( product => {
-        console.log( product(wood) );
+    products.forEach( ([product, qty]) => {
+        // console.log( product(wood) );
+
+        const filename = wood.join("_") + "_to_" + product(wood);
+
+        const data = stonecutter(product, qty)(wood);
+
+        writeJSON(`./data/escapecraft/recipes/stonecutter/${filename}.json`, data );
     })
 })
