@@ -19,7 +19,7 @@
   ],
   "rewards": {
     "recipes": [
-      "escapecraft:stonecutter/rabbit_hide"
+      "escapecraft:stonecutter/unstorage/leather_to_rabbit_hide"
     ]
   }
 }
