@@ -59,7 +59,7 @@ const wood_types = [
 
 writeJSON('./data/escapecraft/recipes/stonecutter/tag/log_to_composter.json', stonecutterTagRecipe('minecraft:logs','minecraft:composter',1));
 writeJSON('./data/escapecraft/recipes/stonecutter/tag/log_to_crafting_table.json', stonecutterTagRecipe('minecraft:logs','minecraft:crafting_table',1));
-writeJSON('./data/escapecraft/recipes/stonecutter/tag/log_to_sticks.json', stonecutterTagRecipe('minecraft:logs','minecraft:sticks', 8));
+writeJSON('./data/escapecraft/recipes/stonecutter/tag/log_to_stick.json', stonecutterTagRecipe('minecraft:logs','minecraft:stick', 8));
 
 
 const wood_advancment_map = {};
