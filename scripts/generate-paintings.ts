@@ -73,7 +73,7 @@ paintings.forEach( (painting_id) => {
             id: "minecraft:painting",
             count: 1,
             components: {
-                "minecraft:entity_data": { id: "minecraft:painting", variant: painting_id }
+                "minecraft:painting/variant": painting_id
             }
         }
       };
