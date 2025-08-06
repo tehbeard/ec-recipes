@@ -5,7 +5,7 @@ import { recipeAdvancement, stonecutter, writeJSON } from "./utils.ts";
 // using functions to generate the regular set and filtering to limit it.
 
 
-const woodProductsFromStoneCutter = (prefix, strippedSuffix) => ([
+const woodProductsFromStoneCutter = (prefix, strippedSuffix, tweak = f => f) => ([
     [strippedSuffix, `${prefix}_button`, 4],
     [strippedSuffix, `${prefix}_door`, 2],
     [strippedSuffix, `${prefix}_fence`, 3],
@@ -17,7 +17,7 @@ const woodProductsFromStoneCutter = (prefix, strippedSuffix) => ([
     [strippedSuffix, `${prefix}_stairs`, 4],
     [strippedSuffix, `stripped_${strippedSuffix}`,1],
     [strippedSuffix, `${prefix}_trapdoor`, 1],
-])
+].map(tweak))
 
 
 const wood_types = [
@@ -35,7 +35,11 @@ const wood_types = [
     // Nether
     ...woodProductsFromStoneCutter('crimson','crimson_stem'),
     ...woodProductsFromStoneCutter('warped','warped_stem'),
-    ...woodProductsFromStoneCutter('bamboo', 'bamboo_block'),
+    ...woodProductsFromStoneCutter('bamboo', 'bamboo_block', f => {
+        // Patch quantities to half.
+        f[2] = Math.max(Math.floor(f[2] / 2), 1);
+        return f;
+    }),
 ]
 
 const tag_based = [
