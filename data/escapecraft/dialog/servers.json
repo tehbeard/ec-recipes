@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Escapecraft",
+  "external_title": "Escapecraft",
+  "can_close_with_escape": true,
+  "body": [
+    {
+      "type": "minecraft:plain_message",
+      "contents": "Please select an option below."
+    }
+  ],
+  "actions": [
+    {
+      "label": "Goto Puzzles",
+      "tooltip": "Pit your wits against our puzzles, or have a friendly game of spleef against your friends.",
+      "action": {
+        "type": "run_command",
+        "command": "server puzzles"
+      }
+    },
+    {
+      "label": "Goto Arcade",
+      "tooltip": "Our next generation minigames server, currently in alpha.",
+      "action": {
+        "type": "run_command",
+        "command": "server arcade"
+      }
+    },
+    {
+      "label": "Open Website",
+      "tooltip": "Visit our website for more information.",
+      "action": {
+        "type": "open_url",
+        "url": "https://escapecraft.net/"
+      }
+    },
+    {
+      "label": "Open Discord",
+      "tooltip": "Join our Discord server to chat with the community.",
+      "action": {
+        "type": "open_url",
+        "url": "https://discord.gg/4dH8SWt"
+      }
+    }
+  ]
+}
