@@ -22,7 +22,7 @@ storage_types.forEach( ([storage, result, qty]) => {
 
     const data = stonecutter(storage, result, qty);
 
-    writeJSON(`./data/escapecraft/recipes/stonecutter/unstorage/${filename}.json`, data );
+    writeJSON(`./data/escapecraft/recipe/stonecutter/unstorage/${filename}.json`, data );
 
     if( !Array.isArray(storage_advancment_map[storage]))
     {

@@ -23,7 +23,7 @@ Object.keys(data).filter(f => f.endsWith("_slab")).forEach( f => {
     }
 
     writeJSON(
-        `data/escapecraft/recipes/shapeless/slab_to_block/${block}_to_${bigBlock.split(":")[1]}.json`,
+        `data/escapecraft/recipe/shapeless/slab_to_block/${block}_to_${bigBlock.split(":")[1]}.json`,
         slabToBlockRecipe(f, bigBlock)
     );
     
