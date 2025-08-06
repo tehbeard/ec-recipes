@@ -7,7 +7,7 @@
     "components": {
       "minecraft:entity_data": {
         "id": "minecraft:painting",
-        "variant": "minecraft:wasteland"
+        "variant": "minecraft:dennis"
       }
     }
   }

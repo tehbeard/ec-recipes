@@ -32,6 +32,10 @@ const paintings = [
     "minecraft:burning_skull",
     "minecraft:skeleton",
     "minecraft:donkey_kong",
+    "minecraft:earth",
+    "minecraft:wind",
+    "minecraft:water",
+    "minecraft:fire",
     "minecraft:baroque",
     "minecraft:humble",
     "minecraft:meditative",
@@ -52,10 +56,7 @@ const paintings = [
     "minecraft:pond",
     "minecraft:sunflowers",
     "minecraft:tides",
-    "minecraft:earth",
-    "minecraft:wind",
-    "minecraft:fire",
-    "minecraft:water"
+    "minecraft:dennis",
 ];
 
 
@@ -70,7 +71,7 @@ paintings.forEach( (painting_id) => {
         ingredient: "minecraft:painting",
         result: { 
             id: "minecraft:painting",
-            Count: 1,
+            count: 1,
             components: {
                 "minecraft:entity_data": { id: "minecraft:painting", variant: painting_id }
             }
