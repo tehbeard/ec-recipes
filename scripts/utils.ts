@@ -11,10 +11,10 @@ export async function writeJSON( file: string, data: any )
 }
 
 
-export const stonecutter = (result, count) => (ingredient: string) => ({
+export const stonecutter = (result, count) => (ingredient: string[]) => ({
         "type": "minecraft:stonecutting",
         "ingredient": {
-          "item": "minecraft:" + ingredient
+          "item": "minecraft:" + ingredient.join("_")
         },
         "result": "minecraft:" + result(ingredient),
         "count": count

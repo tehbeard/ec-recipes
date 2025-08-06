@@ -6,7 +6,7 @@ const wood_types = [
     ['birch','log'],
     ['jungle','log'],
     ['acacia','log'],
-    ['darkoak','log'],
+    ['dark_oak','log'],
     
     ['mangrove','log'],
 
@@ -22,11 +22,11 @@ const products = [
     [s => `${s[0]}_door`, 2],
     [s => `${s[0]}_fence`, 3],
     [s => `${s[0]}_gate`, 1],
-    [s => `${s[0]}_plank`, 4],
-    [s => `${s[0]}_plate`, 2],
+    [s => `${s[0]}_planks`, 4],
+    [s => `${s[0]}_pressure_plate`, 2],
     [s => `${s[0]}_sign`, 2],
     [s => `${s[0]}_slab`, 8],
-    [s => `${s[0]}_stair`, 4],
+    [s => `${s[0]}_stairs`, 4],
     [s => `stripped_${s.join("_")}`,1],
     [s => `${s[0]}_trapdoor`, 1],
         // 'red_sand',
@@ -47,6 +47,6 @@ wood_types.forEach( wood => {
 
         const data = stonecutter(product, qty)(wood);
 
-        writeJSON(`./data/escapecraft/recipes/stonecutter/${filename}.json`, data );
+        writeJSON(`./data/escapecraft/recipes/stonecutter/wood/${filename}.json`, data );
     })
 })
