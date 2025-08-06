@@ -10,7 +10,7 @@ Object.keys(data).filter(f => f.endsWith("_slab")).forEach( f => {
     const fullBlockName = "minecraft:" + block.replace("_slab", "");
     
     let bigBlock: string = "_FAIL_";
-    for(const trial of [ fullBlockName, fullBlockName + "s", fullBlockName + "_planks", fullBlockName + "_block", "_fail_"])
+    for(const trial of [ fullBlockName + "_planks", fullBlockName, fullBlockName + "s", fullBlockName + "_block", "_fail_"])
     {
         if(trial in data)
         {
