@@ -15,8 +15,6 @@ for await ( let path of walk("data/escapecraft/recipes/stonecutter", {includeDir
     }
     advancement_map[data.ingredient.item.split(":")[1]].push( "escapecraft:" + advPath.replace(".json","").replaceAll("\\","/"));
     
-    console.log(advPath);
-    console.log([, data.result]);
 }
 
 Object.entries(advancement_map).forEach( ([key, recipes]) => {
