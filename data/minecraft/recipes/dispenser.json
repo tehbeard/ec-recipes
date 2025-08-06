@@ -1,4 +1,5 @@
 {
+    "__comment": "This replica of the vanilla recipe adds a group for the alternate recipe to merge with",
     "type": "minecraft:crafting_shaped",
     "category": "redstone",
     "key": {
