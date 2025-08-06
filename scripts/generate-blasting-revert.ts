@@ -20,19 +20,43 @@ const COLOURS = [
 ];
 
 
-const makeBlast = (ingredient, result) => {
-    writeJSON(`./data/escapecraft/recipe/blasting/revert/${ingredient}.json`,
+const makeBlast = (ingredient, result, subDir = null) => {
+    Deno.mkdir(`./data/escapecraft/recipe/blasting/revert/${subDir ?? result}/`,{recursive: true})
+    .then(() =>
+    writeJSON(`./data/escapecraft/recipe/blasting/revert/${subDir ?? result}/${ingredient}.json`,
         recipeBlasting("minecraft:" + ingredient, "minecraft:" + result)
     )
+    );
 }
 
-COLOURS.forEach( col => makeBlast(col + "_stained_glass","glass"));
+COLOURS.forEach( col => makeBlast(col + "_stained_glass","glass",));
 COLOURS.forEach( col => makeBlast(col + "_stained_glass_pane","glass_pane"));
 
-COLOURS.forEach( col => makeBlast(col + "_glazed_terracotta", col + "_terracotta"));
+COLOURS.forEach( col => makeBlast(col + "_glazed_terracotta", col + "_terracotta","terracotta"));
 COLOURS.forEach( col => makeBlast(col + "_terracotta", "terracotta"));
 
+makeBlast("deepslate","cobbled_deepslate");
 
+
+const blockData = Object.keys(JSON.parse(new TextDecoder().decode(Deno.readFileSync("./ingest/blocks.json"))));
+
+const stoneRevert = (base: string, result: string|null = null) => {
+    blockData
+    .filter( id => id.includes("_" + base ) || id.includes(base + "_"))
+    .filter( id => !id.includes("_slab"))
+    .filter( id => id != "minecraft:" + base)
+    .forEach( id => makeBlast(id.split(":")[1],result ?? base));
+}
+
+stoneRevert("tuff");
+
+stoneRevert("deepslate","cobbled_deepslate");
+
+stoneRevert("andesite");
+stoneRevert("granite");
+stoneRevert("diorite");
+
+stoneRevert("blackstone");
 
 // const wood_advancment_map = {};
 // wood_types.forEach( ([wood, product, qty]) => {

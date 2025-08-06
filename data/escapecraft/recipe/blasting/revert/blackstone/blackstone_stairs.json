@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:blackstone_stairs",
+  "result": {
+    "id": "minecraft:blackstone"
+  }
+}

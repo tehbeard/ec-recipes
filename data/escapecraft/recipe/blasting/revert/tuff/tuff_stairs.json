@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:tuff_stairs",
+  "result": {
+    "id": "minecraft:tuff"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:chiseled_tuff",
+  "result": {
+    "id": "minecraft:tuff"
+  }
+}

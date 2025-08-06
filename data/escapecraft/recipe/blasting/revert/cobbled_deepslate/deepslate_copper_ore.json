@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:deepslate_copper_ore",
+  "result": {
+    "id": "minecraft:cobbled_deepslate"
+  }
+}

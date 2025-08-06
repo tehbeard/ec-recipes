@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:polished_blackstone_brick_wall",
+  "result": {
+    "id": "minecraft:blackstone"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:andesite_stairs",
+  "result": {
+    "id": "minecraft:andesite"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:cobbled_deepslate_wall",
+  "result": {
+    "id": "minecraft:cobbled_deepslate"
+  }
+}

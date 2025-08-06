@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:andesite_wall",
+  "result": {
+    "id": "minecraft:andesite"
+  }
+}
