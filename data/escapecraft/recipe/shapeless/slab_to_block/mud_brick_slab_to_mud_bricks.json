@@ -1,16 +1,8 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    [
-      {
-        "item": "minecraft:mud_brick_slab"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:mud_brick_slab"
-      }
-    ]
+    "minecraft:mud_brick_slab",
+    "minecraft:mud_brick_slab"
   ],
   "result": {
     "id": "minecraft:mud_bricks",

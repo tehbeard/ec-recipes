@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:glowstone"
-  },
-  "result": {"id": "minecraft:glowstone",
-  "count": 4 }
-}

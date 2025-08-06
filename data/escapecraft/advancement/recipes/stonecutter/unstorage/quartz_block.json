@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_quartz_block": {
+    "has_block": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -14,12 +14,12 @@
   },
   "requirements": [
     [
-      "has_quartz_block"
+      "has_block"
     ]
   ],
   "rewards": {
     "recipes": [
-      "escapecraft:shapeless/blockofquartz_to_netherquartz"
+      "escapecraft:stonecutter/unstorage/quartz_block_to_quartz"
     ]
   }
 }

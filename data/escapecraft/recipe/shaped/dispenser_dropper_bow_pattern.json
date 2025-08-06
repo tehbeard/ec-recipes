@@ -11,15 +11,9 @@
         " S/"
     ],
     "key": {
-        "/": {
-            "item": "minecraft:string"
-        },
-        "S": {
-            "item": "minecraft:stick"
-        },
-        "#": {
-            "item": "minecraft:dropper"
-        }
+        "/": "minecraft:string",
+        "S": "minecraft:stick",
+        "#": "minecraft:dropper"
     },
 	"group": "dispenser"
 }

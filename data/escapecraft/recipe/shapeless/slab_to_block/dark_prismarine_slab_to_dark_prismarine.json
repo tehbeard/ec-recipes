@@ -1,16 +1,8 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    [
-      {
-        "item": "minecraft:dark_prismarine_slab"
-      }
-    ],
-    [
-      {
-        "item": "minecraft:dark_prismarine_slab"
-      }
-    ]
+    "minecraft:dark_prismarine_slab",
+    "minecraft:dark_prismarine_slab"
   ],
   "result": {
     "id": "minecraft:dark_prismarine",

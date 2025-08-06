@@ -1,8 +1,8 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": "#minecraft:logs",
+  "ingredient": "#minecraft:wool",
   "result": {
-    "id": "minecraft:composter",
+    "id": "minecraft:string",
     "count": 1
   }
 }

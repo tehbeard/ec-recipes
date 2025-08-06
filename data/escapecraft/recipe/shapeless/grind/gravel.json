@@ -6,8 +6,6 @@
         "count": 1
     },
     "ingredients": [
-        {
-            "item": "minecraft:cobblestone"
-        }
+        "minecraft:cobblestone"
     ]
 }

@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:nether_wart_block"
-  },
+  "ingredient": "minecraft:nether_wart_block",
   "result": {
     "id": "minecraft:nether_wart",
     "count": 9

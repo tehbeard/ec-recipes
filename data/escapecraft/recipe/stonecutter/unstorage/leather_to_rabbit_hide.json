@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:leather"
-  },
+  "ingredient": "minecraft:leather",
   "result": {
     "id": "minecraft:rabbit_hide",
     "count": 4

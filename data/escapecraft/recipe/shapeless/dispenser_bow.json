@@ -6,12 +6,8 @@
         "count": 1
     },
     "ingredients": [
-        [{
-            "item": "minecraft:dropper"
-        }],
-        [{
-            "item": "minecraft:bow"
-        }]
+        "minecraft:dropper",
+        "minecraft:bow"
     ],
 	"group": "dispenser"
 }

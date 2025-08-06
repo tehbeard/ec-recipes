@@ -1,8 +1,6 @@
 {
   "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "minecraft:painting"
-  },
+  "ingredient": "minecraft:painting",
   "result": {
     "id": "minecraft:painting",
     "Count": 1,

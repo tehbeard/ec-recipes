@@ -51,7 +51,11 @@ const paintings = [
     "minecraft:passage",
     "minecraft:pond",
     "minecraft:sunflowers",
-    "minecraft:tides"
+    "minecraft:tides",
+    "minecraft:earth",
+    "minecraft:wind",
+    "minecraft:fire",
+    "minecraft:water"
 ];
 
 
@@ -63,9 +67,7 @@ paintings.forEach( (painting_id) => {
 
     const data = {
         type: "minecraft:stonecutting",
-        ingredient: {
-          item: "minecraft:painting",
-        },
+        ingredient: "minecraft:painting",
         result: { 
             id: "minecraft:painting",
             Count: 1,
