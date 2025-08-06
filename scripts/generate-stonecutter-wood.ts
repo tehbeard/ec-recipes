@@ -1,4 +1,4 @@
-import { stonecutter, writeJSON } from "./utils.ts";
+import { recipeAdvancement, stonecutter, writeJSON } from "./utils.ts";
 
 const wood_types = [
     ['oak','log'],
@@ -39,6 +39,8 @@ const tag_based = [
     'sticks'
 ];
 
+
+const wood_advancment_map = {};
 wood_types.forEach( wood => {
     products.forEach( ([product, qty]) => {
         // console.log( product(wood) );
@@ -48,5 +50,18 @@ wood_types.forEach( wood => {
         const data = stonecutter(product, qty)(wood);
 
         writeJSON(`./data/escapecraft/recipes/stonecutter/wood/${filename}.json`, data );
+
+        if( !Array.isArray(wood_advancment_map[wood.join("_")]))
+        {
+            wood_advancment_map[wood.join("_")] = [];
+        }
+        wood_advancment_map[wood.join("_")].push(`escapecraft:stonecutter/wood/${filename}`);
+
     })
+})
+
+Object.entries(wood_advancment_map).forEach( ([key, recipes]) => {
+
+    const advancement = recipeAdvancement(key, recipes);
+    writeJSON(`./data/escapecraft/advancements/recipes/stonecutter/wood/${key}.json`, advancement );
 })
