@@ -6,6 +6,8 @@ import { recipeAdvancement, stonecutter, writeJSON } from "./utils.ts";
 
 
 const woodProductsFromStoneCutter = (prefix, strippedSuffix, tweak = f => f) => ([
+
+    // Regular log
     [strippedSuffix, `${prefix}_button`, 4],
     [strippedSuffix, `${prefix}_door`, 2],
     [strippedSuffix, `${prefix}_fence`, 3],
@@ -17,6 +19,19 @@ const woodProductsFromStoneCutter = (prefix, strippedSuffix, tweak = f => f) => 
     [strippedSuffix, `${prefix}_stairs`, 4],
     [strippedSuffix, `stripped_${strippedSuffix}`,1],
     [strippedSuffix, `${prefix}_trapdoor`, 1],
+
+    // Stripped log
+    [`stripped_${strippedSuffix}`, `${prefix}_button`, 4],
+    [`stripped_${strippedSuffix}`, `${prefix}_door`, 2],
+    [`stripped_${strippedSuffix}`, `${prefix}_fence`, 3],
+    [`stripped_${strippedSuffix}`, `${prefix}_fence_gate`, 1],
+    [`stripped_${strippedSuffix}`, `${prefix}_planks`, 4],
+    [`stripped_${strippedSuffix}`, `${prefix}_pressure_plate`, 2],
+    [`stripped_${strippedSuffix}`, `${prefix}_sign`, 2],
+    [`stripped_${strippedSuffix}`, `${prefix}_slab`, 8],
+    [`stripped_${strippedSuffix}`, `${prefix}_stairs`, 4],
+    [`stripped_${strippedSuffix}`, `${prefix}_trapdoor`, 1],
+
 ].map(tweak))
 
 

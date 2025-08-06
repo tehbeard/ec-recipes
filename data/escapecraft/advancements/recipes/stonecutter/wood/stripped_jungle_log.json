@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:stripped_jungle_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:stonecutter/wood/stripped_jungle_log_to_jungle_button",
+      "escapecraft:stonecutter/wood/stripped_jungle_log_to_jungle_door",
+      "escapecraft:stonecutter/wood/stripped_jungle_log_to_jungle_fence",
+      "escapecraft:stonecutter/wood/stripped_jungle_log_to_jungle_fence_gate",
+      "escapecraft:stonecutter/wood/stripped_jungle_log_to_jungle_planks",
+      "escapecraft:stonecutter/wood/stripped_jungle_log_to_jungle_pressure_plate",
+      "escapecraft:stonecutter/wood/stripped_jungle_log_to_jungle_sign",
+      "escapecraft:stonecutter/wood/stripped_jungle_log_to_jungle_slab",
+      "escapecraft:stonecutter/wood/stripped_jungle_log_to_jungle_stairs",
+      "escapecraft:stonecutter/wood/stripped_jungle_log_to_jungle_trapdoor"
+    ]
+  }
+}
