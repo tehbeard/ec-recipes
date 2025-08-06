@@ -11,7 +11,8 @@ const storage_types = [
     ['bamboo_block', 'bamboo', 9],
     ['leather','rabbit_hide', 4],
     ['amethyst_block','amethyst_shard', 4],
-    ['quartz_block','quartz', 4]
+    ['quartz_block','quartz', 4],
+    ['honeycomb_block','honeycomb',4]
 ]
 
 

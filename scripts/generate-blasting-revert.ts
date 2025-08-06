@@ -58,6 +58,13 @@ stoneRevert("diorite");
 
 stoneRevert("blackstone");
 
+makeBlast("glow_ink_sac","ink_sac");
+
+
+// writeJSON(`./data/escapecraft/recipe/blasting/gunpowder.json`,
+//     {...recipeBlasting("minecraft:flint", "minecraft:gunpowder") , cookingtime: 800}
+// )
+
 // const wood_advancment_map = {};
 // wood_types.forEach( ([wood, product, qty]) => {
 //     // console.log( product(wood) );
