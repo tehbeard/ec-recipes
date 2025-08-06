@@ -14,8 +14,15 @@ export const stonecutter = (ingredient, result, count) => ({
   ingredient: {
     item: "minecraft:" + ingredient,
   },
-  result: "minecraft:" + result,
-  count: count,
+  result: { id: "minecraft:" + result, count: count }
+});
+
+export const stonecutterTagRecipe = (tag, result, count) => ({
+  type: "minecraft:stonecutting",
+  ingredient: {
+    tag: tag,
+  },
+  result: { id: result, count: count }
 });
 
 export { walk } from "https://deno.land/std@0.191.0/fs/mod.ts";
@@ -55,7 +62,7 @@ export const slabToBlockRecipe = (ingredient, result) => ({
     ],
   ],
   result: {
-    item: result,
+    id: result,
     count: 1,
   },
 });

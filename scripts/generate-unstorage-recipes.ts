@@ -35,5 +35,5 @@ storage_types.forEach( ([storage, result, qty]) => {
 Object.entries(storage_advancment_map).forEach( ([key, recipes]) => {
 
     const advancement = recipeAdvancement(key, recipes);
-    writeJSON(`./data/escapecraft/advancements/recipes/stonecutter/unstorage/${key}.json`, advancement );
+    writeJSON(`./data/escapecraft/advancement/recipes/stonecutter/unstorage/${key}.json`, advancement );
 })

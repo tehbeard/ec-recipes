@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:painting"
+  },
+  "result": {
+    "id": "minecraft:painting",
+    "Count": 1,
+    "components": {
+      "minecraft:entity_data": {
+        "id": "minecraft:painting",
+        "variant": "minecraft:creebet"
+      }
+    }
+  }
+}

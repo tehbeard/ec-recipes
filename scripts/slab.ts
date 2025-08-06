@@ -28,7 +28,7 @@ Object.keys(data).filter(f => f.endsWith("_slab")).forEach( f => {
     );
     
     writeJSON(
-        `./data/escapecraft/advancements/recipes/shapeless/slab_to_block/${block}.json`,
+        `./data/escapecraft/advancement/recipes/shapeless/slab_to_block/${block}.json`,
         recipeAdvancement(block,[`escapecraft:shapeless/slab_to_block/${block}_to_${bigBlock.split(":")[1]}`])
     );
 

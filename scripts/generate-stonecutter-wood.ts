@@ -1,4 +1,4 @@
-import { recipeAdvancement, stonecutter, writeJSON } from "./utils.ts";
+import { recipeAdvancement, stonecutter, stonecutterTagRecipe, writeJSON } from "./utils.ts";
 
 
 // Need to rework this to be [ input, outputs[] ] tuple so we can mod it for stuff like bamboo mosaic
@@ -57,11 +57,9 @@ const wood_types = [
     }),
 ]
 
-const tag_based = [
-    'composter',
-    'crafting_table',
-    'sticks'
-];
+writeJSON('./data/escapecraft/recipes/stonecutter/tag/log_to_composter.json', stonecutterTagRecipe('minecraft:logs','minecraft:composter',1));
+writeJSON('./data/escapecraft/recipes/stonecutter/tag/log_to_crafting_table.json', stonecutterTagRecipe('minecraft:logs','minecraft:crafting_table',1));
+writeJSON('./data/escapecraft/recipes/stonecutter/tag/log_to_sticks.json', stonecutterTagRecipe('minecraft:logs','minecraft:sticks', 8));
 
 
 const wood_advancment_map = {};
@@ -85,5 +83,5 @@ wood_types.forEach( ([wood, product, qty]) => {
 Object.entries(wood_advancment_map).forEach( ([key, recipes]) => {
 
     const advancement = recipeAdvancement(key, recipes);
-    writeJSON(`./data/escapecraft/advancements/recipes/stonecutter/wood/${key}.json`, advancement );
+    writeJSON(`./data/escapecraft/advancement/recipes/stonecutter/wood/${key}.json`, advancement );
 })
