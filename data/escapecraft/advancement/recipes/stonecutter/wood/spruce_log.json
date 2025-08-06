@@ -29,7 +29,8 @@
       "escapecraft:stonecutter/wood/spruce_log_to_spruce_slab",
       "escapecraft:stonecutter/wood/spruce_log_to_spruce_stairs",
       "escapecraft:stonecutter/wood/spruce_log_to_stripped_spruce_log",
-      "escapecraft:stonecutter/wood/spruce_log_to_spruce_trapdoor"
+      "escapecraft:stonecutter/wood/spruce_log_to_spruce_trapdoor",
+      "escapecraft:stonecutter/wood/spruce_log_to_spruce_shelf"
     ]
   }
 }

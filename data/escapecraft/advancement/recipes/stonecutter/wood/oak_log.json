@@ -29,7 +29,8 @@
       "escapecraft:stonecutter/wood/oak_log_to_oak_slab",
       "escapecraft:stonecutter/wood/oak_log_to_oak_stairs",
       "escapecraft:stonecutter/wood/oak_log_to_stripped_oak_log",
-      "escapecraft:stonecutter/wood/oak_log_to_oak_trapdoor"
+      "escapecraft:stonecutter/wood/oak_log_to_oak_trapdoor",
+      "escapecraft:stonecutter/wood/oak_log_to_oak_shelf"
     ]
   }
 }

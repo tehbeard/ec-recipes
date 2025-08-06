@@ -29,7 +29,8 @@
       "escapecraft:stonecutter/wood/birch_log_to_birch_slab",
       "escapecraft:stonecutter/wood/birch_log_to_birch_stairs",
       "escapecraft:stonecutter/wood/birch_log_to_stripped_birch_log",
-      "escapecraft:stonecutter/wood/birch_log_to_birch_trapdoor"
+      "escapecraft:stonecutter/wood/birch_log_to_birch_trapdoor",
+      "escapecraft:stonecutter/wood/birch_log_to_birch_shelf"
     ]
   }
 }

@@ -29,7 +29,8 @@
       "escapecraft:stonecutter/wood/dark_oak_log_to_dark_oak_slab",
       "escapecraft:stonecutter/wood/dark_oak_log_to_dark_oak_stairs",
       "escapecraft:stonecutter/wood/dark_oak_log_to_stripped_dark_oak_log",
-      "escapecraft:stonecutter/wood/dark_oak_log_to_dark_oak_trapdoor"
+      "escapecraft:stonecutter/wood/dark_oak_log_to_dark_oak_trapdoor",
+      "escapecraft:stonecutter/wood/dark_oak_log_to_dark_oak_shelf"
     ]
   }
 }

@@ -29,7 +29,8 @@
       "escapecraft:stonecutter/wood/bamboo_block_to_bamboo_slab",
       "escapecraft:stonecutter/wood/bamboo_block_to_bamboo_stairs",
       "escapecraft:stonecutter/wood/bamboo_block_to_stripped_bamboo_block",
-      "escapecraft:stonecutter/wood/bamboo_block_to_bamboo_trapdoor"
+      "escapecraft:stonecutter/wood/bamboo_block_to_bamboo_trapdoor",
+      "escapecraft:stonecutter/wood/bamboo_block_to_bamboo_shelf"
     ]
   }
 }

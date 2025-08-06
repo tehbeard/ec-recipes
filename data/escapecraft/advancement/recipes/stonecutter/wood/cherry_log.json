@@ -29,7 +29,8 @@
       "escapecraft:stonecutter/wood/cherry_log_to_cherry_slab",
       "escapecraft:stonecutter/wood/cherry_log_to_cherry_stairs",
       "escapecraft:stonecutter/wood/cherry_log_to_stripped_cherry_log",
-      "escapecraft:stonecutter/wood/cherry_log_to_cherry_trapdoor"
+      "escapecraft:stonecutter/wood/cherry_log_to_cherry_trapdoor",
+      "escapecraft:stonecutter/wood/cherry_log_to_cherry_shelf"
     ]
   }
 }

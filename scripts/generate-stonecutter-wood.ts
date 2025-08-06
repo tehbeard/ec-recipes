@@ -19,6 +19,7 @@ const woodProductsFromStoneCutter = (prefix, strippedSuffix, tweak = f => f) => 
     [strippedSuffix, `${prefix}_stairs`, 4],
     [strippedSuffix, `stripped_${strippedSuffix}`,1],
     [strippedSuffix, `${prefix}_trapdoor`, 1],
+    [strippedSuffix, `${prefix}_shelf`, 2],
 
     // Stripped log
     [`stripped_${strippedSuffix}`, `${prefix}_button`, 4],
@@ -31,6 +32,7 @@ const woodProductsFromStoneCutter = (prefix, strippedSuffix, tweak = f => f) => 
     [`stripped_${strippedSuffix}`, `${prefix}_slab`, 8],
     [`stripped_${strippedSuffix}`, `${prefix}_stairs`, 4],
     [`stripped_${strippedSuffix}`, `${prefix}_trapdoor`, 1],
+    [`stripped_${strippedSuffix}`, `${prefix}_shelf`, 2],
 
 ].map(tweak))
 

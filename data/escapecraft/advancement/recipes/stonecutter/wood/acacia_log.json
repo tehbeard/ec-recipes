@@ -29,7 +29,8 @@
       "escapecraft:stonecutter/wood/acacia_log_to_acacia_slab",
       "escapecraft:stonecutter/wood/acacia_log_to_acacia_stairs",
       "escapecraft:stonecutter/wood/acacia_log_to_stripped_acacia_log",
-      "escapecraft:stonecutter/wood/acacia_log_to_acacia_trapdoor"
+      "escapecraft:stonecutter/wood/acacia_log_to_acacia_trapdoor",
+      "escapecraft:stonecutter/wood/acacia_log_to_acacia_shelf"
     ]
   }
 }
