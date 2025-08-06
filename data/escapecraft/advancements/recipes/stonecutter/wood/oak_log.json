@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:oak_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:stonecutter/wood/oak_log_to_oak_button",
+      "escapecraft:stonecutter/wood/oak_log_to_oak_door",
+      "escapecraft:stonecutter/wood/oak_log_to_oak_fence",
+      "escapecraft:stonecutter/wood/oak_log_to_oak_gate",
+      "escapecraft:stonecutter/wood/oak_log_to_oak_planks",
+      "escapecraft:stonecutter/wood/oak_log_to_oak_pressure_plate",
+      "escapecraft:stonecutter/wood/oak_log_to_oak_sign",
+      "escapecraft:stonecutter/wood/oak_log_to_oak_slab",
+      "escapecraft:stonecutter/wood/oak_log_to_oak_stairs",
+      "escapecraft:stonecutter/wood/oak_log_to_stripped_oak_log",
+      "escapecraft:stonecutter/wood/oak_log_to_oak_trapdoor"
+    ]
+  }
+}

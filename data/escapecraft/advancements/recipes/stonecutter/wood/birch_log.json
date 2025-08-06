@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:birch_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:stonecutter/wood/birch_log_to_birch_button",
+      "escapecraft:stonecutter/wood/birch_log_to_birch_door",
+      "escapecraft:stonecutter/wood/birch_log_to_birch_fence",
+      "escapecraft:stonecutter/wood/birch_log_to_birch_gate",
+      "escapecraft:stonecutter/wood/birch_log_to_birch_planks",
+      "escapecraft:stonecutter/wood/birch_log_to_birch_pressure_plate",
+      "escapecraft:stonecutter/wood/birch_log_to_birch_sign",
+      "escapecraft:stonecutter/wood/birch_log_to_birch_slab",
+      "escapecraft:stonecutter/wood/birch_log_to_birch_stairs",
+      "escapecraft:stonecutter/wood/birch_log_to_stripped_birch_log",
+      "escapecraft:stonecutter/wood/birch_log_to_birch_trapdoor"
+    ]
+  }
+}

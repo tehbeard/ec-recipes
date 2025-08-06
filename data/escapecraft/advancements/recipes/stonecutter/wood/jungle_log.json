@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:jungle_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:stonecutter/wood/jungle_log_to_jungle_button",
+      "escapecraft:stonecutter/wood/jungle_log_to_jungle_door",
+      "escapecraft:stonecutter/wood/jungle_log_to_jungle_fence",
+      "escapecraft:stonecutter/wood/jungle_log_to_jungle_gate",
+      "escapecraft:stonecutter/wood/jungle_log_to_jungle_planks",
+      "escapecraft:stonecutter/wood/jungle_log_to_jungle_pressure_plate",
+      "escapecraft:stonecutter/wood/jungle_log_to_jungle_sign",
+      "escapecraft:stonecutter/wood/jungle_log_to_jungle_slab",
+      "escapecraft:stonecutter/wood/jungle_log_to_jungle_stairs",
+      "escapecraft:stonecutter/wood/jungle_log_to_stripped_jungle_log",
+      "escapecraft:stonecutter/wood/jungle_log_to_jungle_trapdoor"
+    ]
+  }
+}

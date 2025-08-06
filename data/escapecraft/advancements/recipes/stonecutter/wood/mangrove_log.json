@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:mangrove_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:stonecutter/wood/mangrove_log_to_mangrove_button",
+      "escapecraft:stonecutter/wood/mangrove_log_to_mangrove_door",
+      "escapecraft:stonecutter/wood/mangrove_log_to_mangrove_fence",
+      "escapecraft:stonecutter/wood/mangrove_log_to_mangrove_gate",
+      "escapecraft:stonecutter/wood/mangrove_log_to_mangrove_planks",
+      "escapecraft:stonecutter/wood/mangrove_log_to_mangrove_pressure_plate",
+      "escapecraft:stonecutter/wood/mangrove_log_to_mangrove_sign",
+      "escapecraft:stonecutter/wood/mangrove_log_to_mangrove_slab",
+      "escapecraft:stonecutter/wood/mangrove_log_to_mangrove_stairs",
+      "escapecraft:stonecutter/wood/mangrove_log_to_stripped_mangrove_log",
+      "escapecraft:stonecutter/wood/mangrove_log_to_mangrove_trapdoor"
+    ]
+  }
+}
