@@ -1,6 +1,9 @@
 {
-    "pack": {
-        "pack_format": 81,
-        "description": "Escapecraft additional recipes, wooden stonecutter, slab reconstitution & easier dispensers"
-    }
+  "pack": {
+    "pack_format": 81,
+    "description": "Escapecraft additional recipes, wooden stonecutter, slab reconstitution & easier dispensers"
+  },
+  "overlays": {
+    "entries": [{ "formats": 82, "directory": "snapshot" }]
+  }
 }
