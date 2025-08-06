@@ -9,12 +9,12 @@ export async function writeJSON(file: string, data: any) {
   );
 }
 
-export const stonecutter = (result, count) => (ingredient: string[]) => ({
+export const stonecutter = (ingredient, result, count) => ({
   type: "minecraft:stonecutting",
   ingredient: {
-    item: "minecraft:" + ingredient.join("_"),
+    item: "minecraft:" + ingredient,
   },
-  result: "minecraft:" + result(ingredient),
+  result: "minecraft:" + result,
   count: count,
 });
 
@@ -37,5 +37,25 @@ export const recipeAdvancement = (item, recipes) => ({
   requirements: [["has_block"]],
   rewards: {
     recipes: recipes,
+  },
+});
+
+export const slabToBlockRecipe = (ingredient, result) => ({
+  type: "minecraft:crafting_shapeless",
+  ingredients: [
+    [
+      {
+        item: ingredient,
+      },
+    ],
+    [
+      {
+        item: ingredient,
+      },
+    ],
+  ],
+  result: {
+    item: result,
+    count: 1,
   },
 });
