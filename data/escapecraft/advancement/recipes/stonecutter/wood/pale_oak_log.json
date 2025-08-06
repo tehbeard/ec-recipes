@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:pale_oak_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:stonecutter/wood/pale_oak_log_to_pale_oak_button",
+      "escapecraft:stonecutter/wood/pale_oak_log_to_pale_oak_door",
+      "escapecraft:stonecutter/wood/pale_oak_log_to_pale_oak_fence",
+      "escapecraft:stonecutter/wood/pale_oak_log_to_pale_oak_fence_gate",
+      "escapecraft:stonecutter/wood/pale_oak_log_to_pale_oak_planks",
+      "escapecraft:stonecutter/wood/pale_oak_log_to_pale_oak_pressure_plate",
+      "escapecraft:stonecutter/wood/pale_oak_log_to_pale_oak_sign",
+      "escapecraft:stonecutter/wood/pale_oak_log_to_pale_oak_slab",
+      "escapecraft:stonecutter/wood/pale_oak_log_to_pale_oak_stairs",
+      "escapecraft:stonecutter/wood/pale_oak_log_to_stripped_pale_oak_log",
+      "escapecraft:stonecutter/wood/pale_oak_log_to_pale_oak_trapdoor"
+    ]
+  }
+}
