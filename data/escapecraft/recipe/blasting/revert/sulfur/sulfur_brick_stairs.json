@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:sulfur_brick_stairs",
+  "result": {
+    "id": "minecraft:sulfur"
+  }
+}

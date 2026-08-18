@@ -57,6 +57,8 @@ stoneRevert("granite");
 stoneRevert("diorite");
 
 stoneRevert("blackstone");
+stoneRevert("sulfur");
+stoneRevert("cinnabar");
 
 makeBlast("glow_ink_sac","ink_sac");
 

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:chiseled_cinnabar",
+  "result": {
+    "id": "minecraft:cinnabar"
+  }
+}

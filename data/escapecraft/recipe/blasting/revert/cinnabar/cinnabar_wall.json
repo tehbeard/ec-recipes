@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": "minecraft:cinnabar_wall",
+  "result": {
+    "id": "minecraft:cinnabar"
+  }
+}
