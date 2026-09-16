@@ -3,5 +3,6 @@
   "ingredient": "minecraft:brown_terracotta",
   "result": {
     "id": "minecraft:terracotta"
-  }
+  },
+  "cookingtime": 200
 }

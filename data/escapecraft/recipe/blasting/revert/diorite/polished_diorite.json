@@ -3,5 +3,6 @@
   "ingredient": "minecraft:polished_diorite",
   "result": {
     "id": "minecraft:diorite"
-  }
+  },
+  "cookingtime": 200
 }

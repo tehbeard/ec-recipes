@@ -3,5 +3,6 @@
   "ingredient": "minecraft:cinnabar_bricks",
   "result": {
     "id": "minecraft:cinnabar"
-  }
+  },
+  "cookingtime": 200
 }

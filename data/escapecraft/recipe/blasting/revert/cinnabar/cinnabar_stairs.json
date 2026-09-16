@@ -3,5 +3,6 @@
   "ingredient": "minecraft:cinnabar_stairs",
   "result": {
     "id": "minecraft:cinnabar"
-  }
+  },
+  "cookingtime": 200
 }

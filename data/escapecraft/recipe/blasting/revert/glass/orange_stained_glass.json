@@ -3,5 +3,6 @@
   "ingredient": "minecraft:orange_stained_glass",
   "result": {
     "id": "minecraft:glass"
-  }
+  },
+  "cookingtime": 200
 }

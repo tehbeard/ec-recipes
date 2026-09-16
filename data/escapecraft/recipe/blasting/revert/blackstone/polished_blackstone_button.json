@@ -3,5 +3,6 @@
   "ingredient": "minecraft:polished_blackstone_button",
   "result": {
     "id": "minecraft:blackstone"
-  }
+  },
+  "cookingtime": 200
 }

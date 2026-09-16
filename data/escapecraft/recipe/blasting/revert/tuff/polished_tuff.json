@@ -3,5 +3,6 @@
   "ingredient": "minecraft:polished_tuff",
   "result": {
     "id": "minecraft:tuff"
-  }
+  },
+  "cookingtime": 200
 }

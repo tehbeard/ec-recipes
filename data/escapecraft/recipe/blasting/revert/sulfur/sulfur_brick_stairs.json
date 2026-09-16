@@ -3,5 +3,6 @@
   "ingredient": "minecraft:sulfur_brick_stairs",
   "result": {
     "id": "minecraft:sulfur"
-  }
+  },
+  "cookingtime": 200
 }

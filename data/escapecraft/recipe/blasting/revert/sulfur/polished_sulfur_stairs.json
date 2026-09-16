@@ -3,5 +3,6 @@
   "ingredient": "minecraft:polished_sulfur_stairs",
   "result": {
     "id": "minecraft:sulfur"
-  }
+  },
+  "cookingtime": 200
 }

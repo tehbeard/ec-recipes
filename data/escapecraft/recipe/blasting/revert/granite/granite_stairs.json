@@ -3,5 +3,6 @@
   "ingredient": "minecraft:granite_stairs",
   "result": {
     "id": "minecraft:granite"
-  }
+  },
+  "cookingtime": 200
 }

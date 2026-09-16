@@ -3,5 +3,6 @@
   "ingredient": "minecraft:chiseled_sulfur",
   "result": {
     "id": "minecraft:sulfur"
-  }
+  },
+  "cookingtime": 200
 }

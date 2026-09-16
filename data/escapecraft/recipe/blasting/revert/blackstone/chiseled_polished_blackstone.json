@@ -3,5 +3,6 @@
   "ingredient": "minecraft:chiseled_polished_blackstone",
   "result": {
     "id": "minecraft:blackstone"
-  }
+  },
+  "cookingtime": 200
 }

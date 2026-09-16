@@ -3,5 +3,6 @@
   "ingredient": "minecraft:deepslate_iron_ore",
   "result": {
     "id": "minecraft:cobbled_deepslate"
-  }
+  },
+  "cookingtime": 200
 }

@@ -58,5 +58,6 @@ export const slabToBlockRecipe = (ingredient, result) => ({
 export const recipeBlasting = (ingredient, result) => ({
   type:"minecraft:blasting",
   ingredient: ingredient,
-  result: { id: result }
+  result: { id: result },
+  cookingtime: 200
 })

@@ -3,5 +3,6 @@
   "ingredient": "minecraft:light_gray_stained_glass",
   "result": {
     "id": "minecraft:glass"
-  }
+  },
+  "cookingtime": 200
 }

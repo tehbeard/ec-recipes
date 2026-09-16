@@ -3,5 +3,6 @@
   "ingredient": "minecraft:lime_stained_glass_pane",
   "result": {
     "id": "minecraft:glass_pane"
-  }
+  },
+  "cookingtime": 200
 }

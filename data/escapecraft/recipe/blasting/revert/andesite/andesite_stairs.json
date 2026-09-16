@@ -3,5 +3,6 @@
   "ingredient": "minecraft:andesite_stairs",
   "result": {
     "id": "minecraft:andesite"
-  }
+  },
+  "cookingtime": 200
 }

@@ -40,11 +40,17 @@ makeBlast("deepslate","cobbled_deepslate");
 
 const blockData = Object.keys(JSON.parse(new TextDecoder().decode(Deno.readFileSync("./ingest/blocks.json"))));
 
+const skip_reverts = [
+    'minecraft:potent_sulfur',
+    'minecraft:sulfur_spike'
+]
+
 const stoneRevert = (base: string, result: string|null = null) => {
     blockData
     .filter( id => id.includes("_" + base ) || id.includes(base + "_"))
     .filter( id => !id.includes("_slab"))
     .filter( id => id != "minecraft:" + base)
+    .filter( id => !skip_reverts.includes(id))
     .forEach( id => makeBlast(id.split(":")[1],result ?? base));
 }
 

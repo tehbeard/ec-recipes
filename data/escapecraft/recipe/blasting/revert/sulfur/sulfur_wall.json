@@ -3,5 +3,6 @@
   "ingredient": "minecraft:sulfur_wall",
   "result": {
     "id": "minecraft:sulfur"
-  }
+  },
+  "cookingtime": 200
 }

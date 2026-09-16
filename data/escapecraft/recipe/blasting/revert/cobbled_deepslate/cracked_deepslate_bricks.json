@@ -3,5 +3,6 @@
   "ingredient": "minecraft:cracked_deepslate_bricks",
   "result": {
     "id": "minecraft:cobbled_deepslate"
-  }
+  },
+  "cookingtime": 200
 }

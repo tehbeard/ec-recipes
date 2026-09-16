@@ -3,5 +3,6 @@
   "ingredient": "minecraft:polished_deepslate_stairs",
   "result": {
     "id": "minecraft:cobbled_deepslate"
-  }
+  },
+  "cookingtime": 200
 }

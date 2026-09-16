@@ -3,5 +3,6 @@
   "ingredient": "minecraft:orange_glazed_terracotta",
   "result": {
     "id": "minecraft:orange_terracotta"
-  }
+  },
+  "cookingtime": 200
 }

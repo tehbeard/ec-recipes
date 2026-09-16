@@ -3,5 +3,6 @@
   "ingredient": "minecraft:gilded_blackstone",
   "result": {
     "id": "minecraft:blackstone"
-  }
+  },
+  "cookingtime": 200
 }

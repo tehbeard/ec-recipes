@@ -3,5 +3,6 @@
   "ingredient": "minecraft:tuff_bricks",
   "result": {
     "id": "minecraft:tuff"
-  }
+  },
+  "cookingtime": 200
 }

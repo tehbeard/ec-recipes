@@ -3,5 +3,6 @@
   "ingredient": "minecraft:polished_granite",
   "result": {
     "id": "minecraft:granite"
-  }
+  },
+  "cookingtime": 200
 }

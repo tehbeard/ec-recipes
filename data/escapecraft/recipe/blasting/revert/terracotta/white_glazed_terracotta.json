@@ -3,5 +3,6 @@
   "ingredient": "minecraft:white_glazed_terracotta",
   "result": {
     "id": "minecraft:white_terracotta"
-  }
+  },
+  "cookingtime": 200
 }

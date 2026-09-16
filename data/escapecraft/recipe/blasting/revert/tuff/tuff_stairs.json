@@ -3,5 +3,6 @@
   "ingredient": "minecraft:tuff_stairs",
   "result": {
     "id": "minecraft:tuff"
-  }
+  },
+  "cookingtime": 200
 }

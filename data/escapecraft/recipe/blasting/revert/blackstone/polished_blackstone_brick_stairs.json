@@ -3,5 +3,6 @@
   "ingredient": "minecraft:polished_blackstone_brick_stairs",
   "result": {
     "id": "minecraft:blackstone"
-  }
+  },
+  "cookingtime": 200
 }

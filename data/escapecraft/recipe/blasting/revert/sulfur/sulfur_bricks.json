@@ -3,5 +3,6 @@
   "ingredient": "minecraft:sulfur_bricks",
   "result": {
     "id": "minecraft:sulfur"
-  }
+  },
+  "cookingtime": 200
 }

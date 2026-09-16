@@ -3,5 +3,6 @@
   "ingredient": "minecraft:blackstone_wall",
   "result": {
     "id": "minecraft:blackstone"
-  }
+  },
+  "cookingtime": 200
 }

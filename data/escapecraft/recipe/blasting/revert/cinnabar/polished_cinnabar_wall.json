@@ -3,5 +3,6 @@
   "ingredient": "minecraft:polished_cinnabar_wall",
   "result": {
     "id": "minecraft:cinnabar"
-  }
+  },
+  "cookingtime": 200
 }

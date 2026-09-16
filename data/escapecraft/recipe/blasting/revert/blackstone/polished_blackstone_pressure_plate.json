@@ -3,5 +3,6 @@
   "ingredient": "minecraft:polished_blackstone_pressure_plate",
   "result": {
     "id": "minecraft:blackstone"
-  }
+  },
+  "cookingtime": 200
 }

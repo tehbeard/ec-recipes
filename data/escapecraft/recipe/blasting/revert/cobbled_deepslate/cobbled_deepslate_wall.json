@@ -3,5 +3,6 @@
   "ingredient": "minecraft:cobbled_deepslate_wall",
   "result": {
     "id": "minecraft:cobbled_deepslate"
-  }
+  },
+  "cookingtime": 200
 }

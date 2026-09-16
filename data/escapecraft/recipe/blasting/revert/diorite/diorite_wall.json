@@ -3,5 +3,6 @@
   "ingredient": "minecraft:diorite_wall",
   "result": {
     "id": "minecraft:diorite"
-  }
+  },
+  "cookingtime": 200
 }

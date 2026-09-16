@@ -3,5 +3,6 @@
   "ingredient": "minecraft:deepslate_coal_ore",
   "result": {
     "id": "minecraft:cobbled_deepslate"
-  }
+  },
+  "cookingtime": 200
 }

@@ -3,5 +3,6 @@
   "ingredient": "minecraft:polished_diorite_stairs",
   "result": {
     "id": "minecraft:diorite"
-  }
+  },
+  "cookingtime": 200
 }
