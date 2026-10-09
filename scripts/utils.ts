@@ -1,11 +1,13 @@
+import { readFile, writeFile } from "node:fs/promises";
+
 export async function readJSON(file: string) {
-  return JSON.parse(new TextDecoder().decode(await Deno.readFile(file)));
+  return JSON.parse(await readFile(file, "utf8"));
 }
 
 export async function writeJSON(file: string, data: any) {
-  await Deno.writeFile(
+  await writeFile(
     file,
-    new TextEncoder().encode(JSON.stringify(data, null, 2))
+    JSON.stringify(data, null, 2)
   );
 }
 
@@ -20,8 +22,6 @@ export const stonecutterTagRecipe = (tag, result, count) => ({
   ingredient: "#" + tag,
   result: { id: result, count: count }
 });
-
-export { walk } from "https://deno.land/std@0.191.0/fs/mod.ts";
 
 export const recipeAdvancement = (item, recipes) => ({
   parent: "minecraft:recipes/root",

@@ -1,3 +1,4 @@
+import { mkdirSync, readFileSync } from "node:fs";
 import { recipeAdvancement, recipeBlasting, stonecutter, stonecutterTagRecipe, writeJSON } from "./utils.ts";
 
 const COLOURS = [
@@ -21,11 +22,11 @@ const COLOURS = [
 
 
 const makeBlast = (ingredient, result, subDir = null) => {
-    Deno.mkdir(`./data/escapecraft/recipe/blasting/revert/${subDir ?? result}/`,{recursive: true})
-    .then(() =>
+    const dir = `./data/escapecraft/recipe/blasting/revert/${subDir ?? result}/`;
+    mkdirSync(dir, { recursive: true });
+    console.log("making",ingredient,"->", result);
     writeJSON(`./data/escapecraft/recipe/blasting/revert/${subDir ?? result}/${ingredient}.json`,
         recipeBlasting("minecraft:" + ingredient, "minecraft:" + result)
-    )
     );
 }
 
@@ -38,7 +39,7 @@ COLOURS.forEach( col => makeBlast(col + "_terracotta", "terracotta"));
 makeBlast("deepslate","cobbled_deepslate");
 
 
-const blockData = Object.keys(JSON.parse(new TextDecoder().decode(Deno.readFileSync("./ingest/blocks.json"))));
+const blockData = Object.keys(JSON.parse(readFileSync("./ingest/blocks.json", "utf8")));
 
 const skip_reverts = [
     'minecraft:potent_sulfur',
