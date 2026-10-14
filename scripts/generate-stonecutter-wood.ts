@@ -38,6 +38,7 @@ const woodProductsFromStoneCutter = (prefix, strippedSuffix, tweak = f => f) => 
 
 
 const wood_types = [
+    ...woodProductsFromStoneCutter('poplar','poplar_log'),
     ...woodProductsFromStoneCutter('pale_oak','pale_oak_log'),
     ...woodProductsFromStoneCutter('oak','oak_log'),
     ...woodProductsFromStoneCutter('spruce','spruce_log'),

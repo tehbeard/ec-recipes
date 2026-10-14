@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:poplar_log"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_block"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "escapecraft:stonecutter/wood/poplar_log_to_poplar_button",
+      "escapecraft:stonecutter/wood/poplar_log_to_poplar_door",
+      "escapecraft:stonecutter/wood/poplar_log_to_poplar_fence",
+      "escapecraft:stonecutter/wood/poplar_log_to_poplar_fence_gate",
+      "escapecraft:stonecutter/wood/poplar_log_to_poplar_planks",
+      "escapecraft:stonecutter/wood/poplar_log_to_poplar_pressure_plate",
+      "escapecraft:stonecutter/wood/poplar_log_to_poplar_sign",
+      "escapecraft:stonecutter/wood/poplar_log_to_poplar_slab",
+      "escapecraft:stonecutter/wood/poplar_log_to_poplar_stairs",
+      "escapecraft:stonecutter/wood/poplar_log_to_stripped_poplar_log",
+      "escapecraft:stonecutter/wood/poplar_log_to_poplar_trapdoor",
+      "escapecraft:stonecutter/wood/poplar_log_to_poplar_shelf"
+    ]
+  }
+}
